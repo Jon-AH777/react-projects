@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3%;
+    background: rgba(10, 10, 9, 0.6);
+    z-index: 1001;
+}
+
+header .logo{
+    font-size: 3.5rem;
+    color: var(--min-color);
+    padding: 0.4rem;
+}
+
+header .navbar a {
+    margin: 0 0.8rem;
+    font-size: 1.9rem;
+    color: var(--min-color);
+    padding: 0.4rem;
+}
+
+header .navbar a:hover{
+    color: var(--sc-color);
+}
+
